@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>lab 13</title>
+</head>
+
+<body>
+    <header>
+        Backend3
+        <nav>
+            <a href="/">Home</a>
+            <a href="/Mockups">Mockups</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="header">Quiz</h1>
+        <div id="result"></div>
+        <form id="form" onsubmit="handleSubmit()">
+            <span id="question"></span>
+            <input id="answer"/>
+
+            <div class="buttons">
+                <button id="next">Next</button>
+                <button id="finish">Finish</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>© 2024 - Backend3</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
